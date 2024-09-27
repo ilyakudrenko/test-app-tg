@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      Fuck Calc 1
+        Hello World!
         <button onClick={onClose}>Закрыть</button>
     </div>
   );
