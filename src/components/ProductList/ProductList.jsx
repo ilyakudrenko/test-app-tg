@@ -2,8 +2,6 @@ import React from 'react';
 import './ProductList.css';
 import ProductItem from "../ProductItem/ProductItem";
 import {useTelegram} from "../../hooks/useTelegram";
-import React, { useState } from 'react'; // Ensure useState is imported
-
 
 const products = [
     {id: '1', title: 'Кроссфит Курс 1', price: 5000, description: 'Хороший Кроссфит курс'},
