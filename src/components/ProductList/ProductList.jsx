@@ -16,7 +16,7 @@ const products = [
 
 const getTotalPrice = (items) => {
      return items.reduce((acc, item) => {
-         return acc += item.price;
+         return acc += item.price
      }, 0 )
 }
 
@@ -29,7 +29,7 @@ const ProductList = () => {
         let newItms = [];
 
         if(aleadyAdded) {
-            newItms = addedItems.filter(item => item.id === product.id);
+            newItms = addedItems.filter(item => item.id !== product.id);
         }
         else{
             newItms = [...addedItems, product];
