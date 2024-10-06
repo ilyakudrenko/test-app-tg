@@ -58,7 +58,7 @@ const Form = () => {
             <select className={'select'} value={subject} onChange={onChangeSubject}>
                 <option value={'physical'}>Физ. лицо</option>
                 <option value={'legal'}>Юур. лицо</option>
-                <option value={'legal'}>коломойский</option>
+                <option value={'kol'}>коломойский</option>
             </select>
         </div>
     );
