@@ -12,6 +12,7 @@ const products = [
     {id: '6', title: 'Кроссфит 6', price: 900, description: 'Оличный Кроссфит курс'},
     {id: '7', title: 'Кроссфит 7', price: 12000, description: 'Дорогой Кроссфит курс'},
     {id: '8', title: 'Кроссфит 8', price: 50, description: 'Дешевый Кроссфит курс'},
+    {id: '9', title: 'Кроссфит Бомба', price: 5000, description: 'Лучший курс'},
 ];
 
 const getTotalPrice = (items) => {
