@@ -5,11 +5,11 @@ import { useTelegram } from "../../hooks/useTelegram";
 
 const products = [
     {id: '1', title: 'Кроссфит 1', price: 5000, description: 'Хороший Кроссфит курс'},
-    {id: '2', title: 'Кроссфит 2', price: 1200, description: 'Оличный Кроссфит курс'},
+    {id: '2', title: 'Кроссфит 2', price: 1200, description: 'Отличный Кроссфит курс'},
     {id: '3', title: 'Кроссфит 3', price: 112, description: 'Хороший Кроссфит курс'},
-    {id: '4', title: 'Кроссфит 4', price: 4000, description: 'Оличный Кроссфит курс'},
+    {id: '4', title: 'Кроссфит 4', price: 4000, description: 'Отличный Кроссфит курс'},
     {id: '5', title: 'Кроссфит 5', price: 600, description: 'Хороший Кроссфит курс'},
-    {id: '6', title: 'Кроссфит 6', price: 900, description: 'Оличный Кроссфит курс'},
+    {id: '6', title: 'Кроссфит 6', price: 900, description: 'Отличный Кроссфит курс'},
     {id: '7', title: 'Кроссфит 7', price: 12000, description: 'Дорогой Кроссфит курс'},
     {id: '8', title: 'Кроссфит 8', price: 50, description: 'Дешевый Кроссфит курс'},
     {id: '9', title: 'Кроссфит Бомба', price: 5000, description: 'Лучший курс'},
